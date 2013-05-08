@@ -11,7 +11,7 @@ public class Mano {
 	
 	public void getMano()
 	{
-		System.out.println("Forma: " +this.forma.getValor());
+		System.out.println("Forma: " + this.forma.getValor());
 	}
 	
 	public void getReglas(final Mano otra)
@@ -118,7 +118,7 @@ public class Mano {
 			
 			case  PAPEL:
 			{
-				if(forma.PIEDRA == otra.forma || forma.SPOCK == otra.forma)
+				if(Forma.PIEDRA == otra.forma || forma.SPOCK == otra.forma)
 				{
 					return Resultado.GANA;
 				}
